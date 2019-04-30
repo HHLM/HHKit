@@ -8,28 +8,29 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HHKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HHKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.0.1'
+  s.summary          = 'HHKit.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+简单测试一下私有库创建~
                        DESC
-
-  s.homepage         = 'https://github.com/781545830@qq.com/HHKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # 个人主页地址
+  s.homepage         = 'https://github.com/HHLM'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # 作者信息
   s.author           = { '781545830@qq.com' => 'now' }
-  s.source           = { :git => 'https://github.com/781545830@qq.com/HHKit.git', :tag => s.version.to_s }
+  # 以后要上传到git仓库的地址
+  s.source           = { :git => 'https://github.com/HHLM/HHKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
+  # 文件地址
+  #  “Classes/*”
+  #  “HHKit/Classes/*.{h,m}”
+  #  "Classes/**/*.h"
+  
+  #  “*” 表示匹配所有文件
+  #  “*.{h,m}” 表示匹配所有以.h和.m结尾的文件
+  #  “**” 表示匹配所有子目录
   s.source_files = 'HHKit/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +38,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  
   # s.frameworks = 'UIKit', 'MapKit'
+  
+  # 依赖的第三方库文件
   # s.dependency 'AFNetworking', '~> 2.3'
 end

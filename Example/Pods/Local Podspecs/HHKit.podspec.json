@@ -1,0 +1,22 @@
+{
+  "name": "HHKit",
+  "version": "0.1.0",
+  "summary": "HHKit.",
+  "description": "简单测试一下私有库创建~",
+  "homepage": "https://github.com/HHLM/HHKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "781545830@qq.com": "now"
+  },
+  "source": {
+    "git": "https://github.com/HHLM/HHKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HHKit/Classes/**/*"
+}
